@@ -1,0 +1,11 @@
+build:
+  version: "2.0"  
+
+accounts:
+  message: "Welcome to Account microservice related to qa environment"
+  contactDetails:
+    name: "Ankit QA lead"
+    email: "ankit88@gmail.com"
+  onCallSupport:
+    -(555) 666 7777
+    -(555) 666 8888    

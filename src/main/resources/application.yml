@@ -3,11 +3,14 @@ server:
 
 spring:
   application:
-    name: "ConfigServer"
+    name: "configserver"
   profiles:
     active: native
   cloud:
     config:
       server:
         native:
-          search-locations: "classpath:/config"  
+         # search-locations: "classpath:/config"  
+          search-locations: "file:///G://vscode-project-docker//docker-boot-project//microservice//server-location-config"
+          
+          

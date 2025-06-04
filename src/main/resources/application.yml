@@ -1,7 +1,8 @@
 server:
   port: 8071
 
-  level: INFO
+encrypt:
+  key: "4613SoJp4u5Vg5E7wkxf6g==" 
 
 spring:
   application:

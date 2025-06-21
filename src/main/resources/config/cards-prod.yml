@@ -3,7 +3,7 @@ build:
   version: "1.0"  
 
 cards:
-  message: "Welcome to production Card microservice"
+  message: "Welcome to production Card microservice "
   contactDetails:
     name: "Vipin Tyagi"
     email: "vipinvats88@gmail.com"

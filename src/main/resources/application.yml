@@ -10,7 +10,6 @@ spring:
   profiles:
     # active: native
     active: git
-   
   cloud:
     config:
       server:
@@ -26,17 +25,14 @@ spring:
        # native:
          # search-locations: "classpath:/config"  
         #  search-locations: "file:///G://vscode-project-docker//docker-boot-project//microservice//server-location-config"
-          
-          
-#this will refereshing the property at run time.
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: "guest"
+    password: "guest"
+
 management:
   endpoints:
     web:
       exposure:
-        include: "*"  
-
-rabbitmq:
-  host: localhost
-  port: 5672
-  username: "guest"
-  password: "guest"
+        include: "*"
